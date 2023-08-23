@@ -41,7 +41,6 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnInteractAction(object sender, EventArgs e)
     {
-        HandleInteractions();
         if (selectedCounter != null)
         {
             selectedCounter.Interact();
@@ -51,6 +50,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         HandleMovement();
+        HandleInteractions();
     }
 
     private void HandleInteractions()
