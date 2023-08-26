@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Cheese
   m_EditorClassIdentifier: Assembly-CSharp::KitchenObjectSO
-  prefab: {fileID: 0}
-  iconSprite: {fileID: 0}
-  objectName: 
+  prefab: {fileID: 3280527658330896236, guid: d20eafd51fb0baa4dabb8604aa1da32d, type: 3}
+  iconSprite: {fileID: 21300000, guid: da2d04fe27b94e34ea0b624569b48a6f, type: 3}
+  objectName: CheeseBlock
